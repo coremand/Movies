@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: 'Pacifico', cursive;
+   background-image: url(../images/nicholas-green-nPz8akkUmDI-unsplash.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top;
+   background-attachment: fixed;
+   text-align: center;
+   padding: 30px;
+}
+
+.heading-main1 {
+    color: rgb(255, 255, 255) ;
+    text-transform: uppercase;
+}
+
+.heading-primary1 {
+    display: block;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 17.4px;
+}
+.heading-secondary1 {
+    display: block;
+    letter-spacing: 17.4px;
+    font-weight: 700px;
+}
