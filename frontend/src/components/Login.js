@@ -11,7 +11,7 @@ export default function Login() {
                         <div className="form1-container">
                             <form className="form1" id="auth-form1">
                                 <div className="form1-text">
-                                    <h2>let's hear your voice</h2>
+                                    <h2>Watch movies</h2>
                                 </div>
 
                                 <div className="form1-input">
@@ -29,10 +29,17 @@ export default function Login() {
                                         Sign In
                                     </Button>
                                 </div>
+
+                                <div className="button__form2">
+                                    <Button variant="contained" color="primary">
+                                        Create Account
+                                    </Button>
+                                </div>
                             </form>
                         </div>
                     </div>
                 </div>
+                
             </section>
         
         </div>

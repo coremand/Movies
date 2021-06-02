@@ -6,28 +6,32 @@
 
 body {
    font-family: 'Pacifico', cursive;
-   background-image: url(../images/nicholas-green-nPz8akkUmDI-unsplash.jpg);
+   background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/Movie.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: top;
    background-attachment: fixed;
-   text-align: center;
    padding: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .heading-main1 {
     color: rgb(255, 255, 255) ;
     text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
 }
 
 .heading-primary1 {
-    display: block;
-    font-size: 80px;
-    font-weight: 700;
-    letter-spacing: 17.4px;
+   /* display: block;*/
+    font-size: 50px;
+    font-weight: 700px;
+   /* letter-spacing: 17.4px;*/
 }
 .heading-secondary1 {
-    display: block;
-    letter-spacing: 17.4px;
+    /*display: block;*/
+   /* letter-spacing: 9.4px;*/
     font-weight: 700px;
 }
